@@ -116,7 +116,8 @@ function esImpar(num) {
   // Tu código:
   if (num % 2 === 1) {return true;}
   else
-  {return false;}
+  {
+    return false;}
 }
 
 function elevarAlCuadrado(num) {
