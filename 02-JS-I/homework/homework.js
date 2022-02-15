@@ -29,8 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
   return str;
-  
-}
+  }
 
 function suma(x, y) {
   // "x" e "y" son números
@@ -116,8 +115,7 @@ function esImpar(num) {
   // Tu código:
   if (num % 2 === 1) {return true;}
   else
-  {
-    return false;}
+  {return false;}
 }
 
 function elevarAlCuadrado(num) {
