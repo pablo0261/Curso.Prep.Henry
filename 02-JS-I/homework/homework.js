@@ -1,19 +1,10 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-<<<<<<< HEAD
-const nuevaString = 'hola';
-
-// Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
-
-=======
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 5;
-
->>>>>>> ea4db9730d471ab8a96906fc11d5c436c3fda9a7
+const nuevoNum = 4;
 // Crea una variable booleana:
 const nuevoBool = true;
 
@@ -46,7 +37,7 @@ function suma(x, y) {
   return x + y;
 }
 
-function resta(x, y) {...
+function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   return x - y;
@@ -78,9 +69,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.leng === str2.leng) {
-    return true;} else
-    {return false;}
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -97,15 +86,17 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num>50;) {return true;} 
-  else
-  {return false;}
+  if (num>50){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x / y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -157,7 +148,7 @@ function redondearHaciaArriba(num) {
   return Math.ceil(num);
 }
 
-function numeroRandom() {
+function numeroRandom(num) {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return Math.random (num);
@@ -193,7 +184,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola" + nombre + "!";
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -221,8 +212,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  var euro =  1.2
-  return num * euro
+    return euro * 1.2
 }
 
 
@@ -233,7 +223,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.leng > 1) { return "Dato incorrecto"}
-  if (letra ===a || letra==e || letra==i || letra==o || letra==u) 
+  if (letra ==="a" || letra==="e" || letra==="i" || letra==="o" || letra==="u") 
   {return "Es vocal"} else
   {return "Dato incorrecto"}
 }
